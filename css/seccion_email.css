@@ -1,0 +1,75 @@
+/*Seccion Emails*/
+.subtitulo_madificar{
+    text-align: center;
+    margin-bottom: 16px;
+   }
+   .copia_seccion_modificar{
+    text-align: center;
+    margin-bottom: 32px;
+   }
+   .check{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin: 0 auto;
+   }
+   .check_item{
+    width: 30%;
+    padding-right: 10px;
+    display: flex;
+    border-right: 2px solid var(--black2);
+   }
+   .bx-check{
+    background: linear-gradient(180deg, var(--black2) 0%, var(--black1) 100%);
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    margin-right: 20px;
+    color: #fff;
+    border-radius: 50%;
+    font-size: 40px;
+   }
+   .check_numero{
+    font-weight: 700;
+   }
+   .check_copia{
+    font-weight: 300;
+   }
+   .newsletter{
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 40px;
+    height: auto;
+    font-family: inherit;
+    position: relative;
+    border-radius: 6px;
+   }
+   .newsletter_modificar{
+    margin: 0;
+    width: 80%;
+   }
+   .newsletter_input{
+    width: 100%;
+    height: 100%;
+    padding: 22px 10px;
+    outline: none;
+    font-family: inherit;
+    border-radius: 6px;
+    border: 1px solid var(--black1)
+   }
+   .newsletter_submit{
+    position: absolute;
+    right: 8px;
+    top: 10%;
+    height: 80%;
+    background: linear-gradient(180deg, var(--black2) 0%, var(--black1) 100%);
+    color: #fff;
+    padding: 0 15px;
+    border: none;
+    border-radius: 6px;
+    font-family: inherit;
+    font-weight: 700;
+    cursor: pointer;
+   }
+   

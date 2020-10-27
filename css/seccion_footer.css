@@ -1,0 +1,103 @@
+/*Seccion Footer (Pie de Pagina)*/
+.seccion_footer{
+    background: #fafafa;
+   }
+   .footer_caption{
+    display: flex;
+    flex-wrap: wrap-reverse;
+    justify-content: space-evenly;
+   }
+   .titulo_footer{
+    font-size: 24px;
+    margin-bottom: 32px;
+   }
+   .download{
+    width: 50%;
+   }
+   .download_app{
+    display: flex;
+   }
+   .download_item{
+    display: flex;
+    padding: 18px 12px;
+    border-radius: 6px;
+    border: 1px solid var(--black2);
+    width: 42%;
+    align-items: center;
+    margin-right: 20px;
+    margin-bottom: 16px;
+   }
+   .download_logo{
+    font-size: 40px;
+    margin-right: 20px;
+   }
+   .download_titulo{
+    font-size: 18px;
+   }
+   .footer_copia{
+    width: 100%;
+    color: var(--black2);
+    display: flex;
+    flex-wrap: wrap;
+   }
+   .copyright{
+    width: 100%;
+   }
+   .politica_privacidad{
+    color: inherit;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 10px;
+   }
+   .politica_privacidad:hover{
+    text-decoration: underline;
+   }
+   .politica_privacidad_margen{
+    margin-right: 10px;
+   }
+   .get-email{
+    width: 50%;
+   }
+   .social_media{
+    margin-top: 24px;
+    display: flex;
+    color: var(--black2);
+   }
+   .social_media_icon{
+    font-size: 18px;
+    margin-right: 30px;
+    display: inline-block;
+   }
+   .social_media_leyenda{
+    color: var(--black2);
+    margin-right: 16px;
+   }
+   .contacto{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    color: #fff;
+   }
+   .item_contacto{
+    width: 25%;
+    padding: 60px 0;
+    text-align: center;
+    background: linear-gradient(180deg, var(--black2) 0%, var(--black1) 100%);
+   }
+   .item_contacto_gold{
+    background: linear-gradient(180deg, #F7CE90 0%, #F4BD76 100%);
+    color: var(--black1);
+   }
+   .contacto_icono{
+    font-size: 40px;
+    color: var(--gold1);
+    line-height: 20px;
+    margin-right: 4px;
+   }
+   .contacto_icono_modificar{
+    color: var(--black1);
+   }
+   .contacto_title{
+    font-size: 16px;
+    line-height: 20px;
+   }
